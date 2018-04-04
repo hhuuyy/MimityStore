@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.password">123456Huy</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://localhost; Database=eMarket</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="connection.pool_size">1</property>
+		<!-- Enable Hibernate's automatic session context management -->
+		<property name="current_session_context_class">thread</property>
+
+		<mapping class="mimity.entity.Category" />
+		<mapping class="mimity.entity.Customer" />
+		<mapping class="mimity.entity.Order" />
+		<mapping class="mimity.entity.OrderDetail" />
+		<mapping class="mimity.entity.Product" />
+		<mapping class="mimity.entity.SubCategory" />
+		<mapping class="mimity.entity.Supplier" />
+		<mapping class="mimity.entity.User" />
+
+		<mapping class="mimity.entity.security.ActionRole" />
+		<mapping class="mimity.entity.security.Master" />
+		<mapping class="mimity.entity.security.MasterRole" />
+		<mapping class="mimity.entity.security.Role" />
+		<mapping class="mimity.entity.security.WebAction" />
+	</session-factory>
+</hibernate-configuration>
