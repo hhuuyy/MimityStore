@@ -20,7 +20,7 @@
 		<property name="host" value="smtp.gmail.com" />
 		<property name="port" value="465" />	
 		<property name="username" value="hellonguyenquochuy@gmail.com" />
-		<property name="password" value="0973987357Huy" />
+		<property name="password" value="***" />
 	 	
 	 	<property name="defaultEncoding" value="UTF-8"/> 
 		<property name="javaMailProperties">
