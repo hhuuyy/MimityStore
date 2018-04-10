@@ -84,56 +84,56 @@
 				<ul id="side-admin-menu" class="side-menu list-unstyled">
 					<!-- Quan Ly -->
 					<li><a href="#pages-nav-list" data-toggle="collapse"
-						aria-expanded="false"><i class="icon-interface-windows"></i><span>Quan Li</span>
+						aria-expanded="false"><i class="icon-interface-windows"></i><span>Quản Lí</span>
 							<div class="arrow pull-right">
 								<i class="fa fa-angle-down"></i>
 							</div></a>
 						<ul id="pages-nav-list" class="collapse list-unstyled">
-							<li><a href="admin/master/index.php">Quan li tai khoan</a></li>
-							<li><a href="admin/role/index.php">Quan li vai tro</a></li>
-							<li><a href="admin/web-action/index.php">Quan li chuc nang</a></li>
+							<li><a href="admin/master/index.php">Quản lí tài khoản</a></li>
+							<li><a href="admin/role/index.php">Quản lí vai trò</a></li>
+							<li><a href="admin/web-action/index.php">Quản lí chức năng</a></li>
 						</ul></li>
 					<!-- Phan quyen -->	
 					<li><a href="#pages-nav-list2" data-toggle="collapse"
-						aria-expanded="false"><i class="icon-picture"></i><span>Phan Quyen</span>
+						aria-expanded="false"><i class="icon-picture"></i><span>Phân Quyền</span>
 							<div class="arrow pull-right">
 								<i class="fa fa-angle-down"></i>
 							</div></a>
 						<ul id="pages-nav-list2" class="collapse list-unstyled">
-							<li><a href="admin/master-role/index.php">Phan vai tro</a></li>
-							<li><a href="admin/action-role/index.php">Phan quyen su dung</a></li>
+							<li><a href="admin/master-role/index.php">Phân vai trò</a></li>
+							<li><a href="admin/action-role/index.php">Phân quyền sử dụng</a></li>
 						</ul></li>	
 					<!-- Bao cao -->
 					<li><a href="#pages-nav-list3" data-toggle="collapse"
-						aria-expanded="false"><i class="icon-flask"></i><span>Bao cao</span>
+						aria-expanded="false"><i class="icon-flask"></i><span>Quản lí thông tin</span>
 							<div class="arrow pull-right">
 								<i class="fa fa-angle-down"></i>
 							</div></a>
 						<ul id="pages-nav-list3" class="collapse list-unstyled">
-							<li><a href="admin/category/index.php">Theo loai</a></li>
-							<li><a href="admin/supplier/index.php">Theo hang</a></li>
-							<li><a href="admin/customer/index.php">Theo khach hang</a></li>
-							<li><a href="admin/order/index.php">Theo hoa don</a></li>
-							<li><a href="admin/product/index.php">Theo hang hoa</a></li>
-							<li><a href="admin/order-detail/index.php">Theo chi tiet hoa don</a></li>
+							<li><a href="admin/category/index.php">Theo loại</a></li>
+							<li><a href="admin/supplier/index.php">Theo hãng</a></li>
+							<li><a href="admin/customer/index.php">Theo khách hàng</a></li>
+							<li><a href="admin/order/index.php">Theo sản phẩm</a></li>
+							<li><a href="admin/product/index.php">Theo hàng hóa</a></li>
+							<li><a href="admin/order-detail/index.php">Theo chi tiết hóa đơn</a></li>
 						</ul></li>
 					
 					<!-- Thong ke -->
 					<li><a href="#pages-nav-list4" data-toggle="collapse"
-						aria-expanded="false"><i class="icon-screen"></i><span>Thong ke</span>
+						aria-expanded="false"><i class="icon-screen"></i><span>Thống kê</span>
 							<div class="arrow pull-right">
 								<i class="fa fa-angle-down"></i>
 							</div></a>
 						<ul id="pages-nav-list4" class="collapse list-unstyled">
-							<li><a href="admin/inventory/bycategory2.php">Loai ton kho</a></li>
-							<li><a href="admin/inventory/bysupplier2.php">Hang ton kho</a></li>
-							<li><a href="admin/revenue/byproduct.php">Tung mat hang</a></li>
-							<li><a href="admin/revenue/bycategory.php">Tung loai hang</a></li>
-							<li><a href="admin/revenue/bysupplier.php">Tung hang</a></li>
-							<li><a href="admin/revenue/bycustomer.php">Tung khach hang</a></li>
-							<li><a href="admin/revenue/byyear.php">Tung nam</a></li>
-							<li><a href="admin/revenue/byquarter.php">Tung quy</a></li>
-							<li><a href="admin/revenue/bymonth.php">Tung thang</a></li>
+							<li><a href="admin/inventory/bycategory2.php">Loại tồn kho</a></li>
+							<li><a href="admin/inventory/bysupplier2.php">Hãng tồn kho</a></li>
+							<li><a href="admin/revenue/byproduct.php">Từng mặt hàng</a></li>
+							<li><a href="admin/revenue/bycategory.php">Từng loại hàng</a></li>
+							<li><a href="admin/revenue/bysupplier.php">Từng hàng</a></li>
+							<li><a href="admin/revenue/bycustomer.php">Từng khách hàng</a></li>
+							<li><a href="admin/revenue/byyear.php">Từng năm</a></li>
+							<li><a href="admin/revenue/byquarter.php">Từng qúy</a></li>
+							<li><a href="admin/revenue/bymonth.php">Từng tháng</a></li>
 						</ul></li>
 				</ul>
 			</div>

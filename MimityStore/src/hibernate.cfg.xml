@@ -5,7 +5,7 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-		<property name="hibernate.connection.password">123</property>
+		<property name="hibernate.connection.password">123456Huy</property>
 		<property name="hibernate.connection.url">jdbc:sqlserver://localhost; Database=Store</property>
 		<property name="hibernate.connection.username">sa</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
@@ -18,9 +18,7 @@
 		<mapping class="mimity.entity.Order" />
 		<mapping class="mimity.entity.OrderDetail" />
 		<mapping class="mimity.entity.Product" />
-		<mapping class="mimity.entity.SubCategory" />
 		<mapping class="mimity.entity.Supplier" />
-		<mapping class="mimity.entity.User" />
 
 		<mapping class="mimity.entity.security.ActionRole" />
 		<mapping class="mimity.entity.security.Master" />
