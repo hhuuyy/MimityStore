@@ -113,8 +113,8 @@
 							<li><a href="admin/category/index.php">Theo loại</a></li>
 							<li><a href="admin/supplier/index.php">Theo hãng</a></li>
 							<li><a href="admin/customer/index.php">Theo khách hàng</a></li>
-							<li><a href="admin/order/index.php">Theo sản phẩm</a></li>
-							<li><a href="admin/product/index.php">Theo hàng hóa</a></li>
+							<li><a href="admin/order/index.php">Theo hóa đơn</a></li>
+							<li><a href="admin/product/index.php">Theo sản phẩm</a></li>
 							<li><a href="admin/order-detail/index.php">Theo chi tiết hóa đơn</a></li>
 						</ul></li>
 					
